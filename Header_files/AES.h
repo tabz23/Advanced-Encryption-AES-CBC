@@ -195,7 +195,7 @@ unsigned char xtime(unsigned char  a) // Like a mul 02
 
 unsigned char GMul(unsigned char  a, unsigned char b)
 {
-	// Note that this works because we can write {57} • {13} = {57} • ({01} xor {02} xor {10})
+	// Note that this works because we can write {57} ï¿½ {13} = {57} ï¿½ ({01} xor {02} xor {10})
 	// This means that any 0x13 is wrriten as 00010011=00000001+00000001+00010000
 	//we use this notation in the previous line to distribute the multiplicaion on garlois field over multiples of 2 and use our xtime( function efficiently.
 	unsigned char temp = a;
