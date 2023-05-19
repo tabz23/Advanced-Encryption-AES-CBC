@@ -1,5 +1,3 @@
-This implementation is fully mine. It was my project for my Cryptography course
-
 #AES.cpp:
 
 Here is where the main function is located. After running this file (that includes 4 headers mentioned below), you will be prompted to input a string of characters of size <buffer size>.
@@ -26,6 +24,10 @@ CNG.h: Contains the code for generating random key and IV using windows API.
 padding.h: Function that pads input to multiples of 16.
 
 Cipher.h: Contains the skeleton for encryption and decryption. this header file uses the functions in AES.h.
+  
+  
+  
+This implementation was done for my cryptography course
 
 
 
