@@ -55,7 +55,7 @@
 ////
 ////            if (j == 998)
 ////                memcpy(before_final_ct, ct[998], 16);
-////        }
+////             }
 ////        cout << "ct:  "; print_hex(final_ct, 16); cout << endl << endl;
 ////
 ////        if (keylen == 128) {
