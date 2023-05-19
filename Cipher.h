@@ -8,7 +8,7 @@
 void Cipher(unsigned char in[16], unsigned char out[16], unsigned char w[176])
 {
     // We encrypt in blocks. Copy  the content of the first 16 blocks to our state variable
-    unsigned char state[16];
+    unsigned char state[16] ;
     unsigned char temp_w[16];
 
     // state = in
